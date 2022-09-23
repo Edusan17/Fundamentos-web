@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/img/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
           <a href="index.html"> Home </a>
         </li>
@@ -14,38 +15,61 @@
           <a href="contato.html"> Contato </a>
         </li>
      </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="50" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50">
 
-     <h2>Endereço:</h2>
+      <div>
+        <form>
+          <h3>Envie uma mensagem:</h3>
+          <label for="nome">Nome:</label> <br>
+          <input type="text" id="nome">
+          <br>
+          <br>
+          <label for="email">E-mail:</label> <br>
+          <input type="email" id="email">
+          <br>
+          <br>
+          <label for="assunto">Assunto:</label> <br>
+          <textarea name="assunto" id="assunto" cols="50" rows="5"></textarea>
+          <br>
+          <br>
+          <button>Enviar</button>
+      </form>
+      </div>
 
-     <p>Av. Francisco Matarazzo,1705</p>
-     <p>São Paulo - SP</p>
+      <div class="ml-50">
+        <h2>Endereço:</h2>
 
+     <p>HI-11, Naalehu, HI 96772</p>
+     <p>Estados Unidos, Hawaii</p>
      <iframe 
-     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1367132823166!2d-46.68074028538478!3d-23.527584766230135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57fd1d715d45%3A0x864e5421d6195cb1!2sAllianz%20Parque!5e0!3m2!1spt-BR!2sbr!4v1663869153864!5m2!1spt-BR!2sbr" 
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95779.40085548823!2d-155.6736044349282!3d19.06032079794358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x795143e10bfb6dd3%3A0x7c9c3b8377c8c808!2sWhittington%20Beach%20Park!5e0!3m2!1spt-BR!2sbr!4v1663952026939!5m2!1spt-BR!2sbr" 
      width="450" 
      height="300" 
-     style="border:70;" 
+     style="border:0;" 
      allowfullscreen="" 
      loading="lazy" 
-     referrerpolicy="no-referrer-when-downgrade"
-     ></iframe>
-
+     referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <div class="container">
+        <a href="https://www.instagram.com/duuh_sanx/" target="_blank">
+          <img class= "tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/eduardo-cordeiro-dos-santos-31a4291a1/" target="_blank">
+          <img class= "tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+        <a href="https://github.com/Edusan17" target="_blank">
+          <img class= "tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub">
+        </a>
+      </div>
+      <p class="center">
+        Todos os Direitos Reservados: Eduardo Cordeiro &copy
+          </p>
+        </footer>
 </body>
 </html>
